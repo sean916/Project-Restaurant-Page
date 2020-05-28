@@ -1,0 +1,39 @@
+#pageTitle {
+    font-size: 70px;
+}
+
+#content {
+    text-align: center;
+}
+
+img {
+    max-width: 800px;
+    max-height: auto;
+}
+
+.tab {
+    border: 1px solid rgba(180, 180, 180, 0.664);
+    background-color: rgba(245, 245, 245, 0.815);
+}
+
+button {
+    padding: 14px 16px;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button.active {
+    background-color: rgb(197, 197, 197);
+    font-weight: bold;
+}
+
+#tabContent {
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 200%;
+
+}
